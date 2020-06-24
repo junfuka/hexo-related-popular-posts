@@ -10,23 +10,23 @@
     "eslint-fix": "eslint --fix ."
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
+    "cheerio": "^1.0.0-rc.3",
     "columnify": "^1.5.4",
-    "ga-analytics": "^0.0.7",
-    "hexo-fs": "^0.2.2",
-    "mkdirp": "^0.5.1",
-    "moment": "^2.19.1",
+    "googleapis": "^52.1.0",
+    "hasha": "^5.2.0",
+    "hexo-fs": "^3.1.0",
     "kuromoji": "^0.1.1",
-    "hasha": "^3.0.0",
-    "log-util": "^1.2.0"
+    "log-util": "^2.3.0",
+    "mkdirp": "^1.0.4",
+    "moment": "^2.19.1"
   },
   "devDependencies": {
-    "eslint": "^4.12.0",
-    "eslint-config-google": "^0.9.1",
+    "eslint": "^7.3.1",
+    "eslint-config-google": "^0.14.0",
     "hexo": "^4.2.0",
     "intelli-espower-loader": "^1.0.1",
     "istanbul": "^0.4.5",
-    "mocha": "^4.0.1",
+    "mocha": "^8.0.1",
     "power-assert": "^1.4.4"
   },
   "description": "A hexo plugin that generates a list of links to related posts and popular posts. Also , this plugin can get Visitor Counts (PageView) on posts.",

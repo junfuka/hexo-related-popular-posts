@@ -31,3 +31,5 @@ Icon
 
 # Editor
 .vscode
+
+.env
