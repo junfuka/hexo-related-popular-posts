@@ -32,7 +32,6 @@ module.exports = function (hexo) {
       // Deprecated message
       if (hexo.config.popularPosts.googleAnalyticsAPI.cache && (hexo.config.popularPosts.googleAnalyticsAPI.cache.path != undefined || hexo.config.popularPosts.googleAnalyticsAPI.cache.expiresDate != undefined)) {
         lg.log('error', '(Deprecated option) \'googleAnalyticsAPI.cache.path\' and \'googleAnalyticsAPI.cache.expiresDate\' are deprecated. Please set the \'cache.path\' and \'googleAnalyticsAPI.expiresDate\' option.', '_config.yml', true)
-        return
       }
 
       // google analytics option
@@ -52,7 +51,6 @@ module.exports = function (hexo) {
         viewId = hexo.config.popularPosts.googleAnalyticsAPI.viewId
       } else {
         lg.log('error', 'Please set the googleAnalyticsAPI options or environment variables.', '_config.yml', true)
-        return
       }
 
       if (hexo.config.popularPosts.googleAnalyticsAPI.pvMeasurementsStartDate != undefined) {
@@ -62,7 +60,6 @@ module.exports = function (hexo) {
           pvMeasurementsStartDate = pvmstd
         } else {
           lg.log('error', 'Please check the \'pvMeasurementsStartDate\' option. This option should be written in the form \'YYYY-MM-DD\' .', '_config.yml', true)
-          return
         }
       }
 
